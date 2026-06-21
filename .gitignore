@@ -1,0 +1,25 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.coverage
+htmlcov/
+
+# Node
+frontend/node_modules/
+frontend/.next/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Docker / local runtime
+postgres_data/
+redis_data/
